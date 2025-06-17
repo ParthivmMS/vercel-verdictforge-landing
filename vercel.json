@@ -4,5 +4,20 @@
       "source": "/app/:path*",
       "destination": "https://verdictforge.onrender.com/:path*"
     }
+  ],
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        }
+      ]
+    }
   ]
 }
