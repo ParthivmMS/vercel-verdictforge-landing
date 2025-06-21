@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/ads.txt", "destination": "/public/ads.txt" },
+    { "source": "/robots.txt", "destination": "/public/robots.txt" },
+    { "source": "/sitemap.xml", "destination": "/public/sitemap.xml" }
+  ]
+}
