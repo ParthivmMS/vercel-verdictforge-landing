@@ -3,5 +3,12 @@
     { "source": "/ads.txt", "destination": "/public/ads.txt" },
     { "source": "/robots.txt", "destination": "/public/robots.txt" },
     { "source": "/sitemap.xml", "destination": "/public/sitemap.xml" }
+  ],
+  "redirects": [
+    {
+      "source": "https://www.verdictforge.in/:path*",
+      "destination": "https://verdictforge.in/:path*",
+      "permanent": true
+    }
   ]
 }
